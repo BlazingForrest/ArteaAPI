@@ -7,7 +7,7 @@ public class Example {
 	// For example, your URL might be 1234567890 because the URL is https://maker.ifttt.com/use/1234567890
 	
 	public static void main(String[] args) {
-		String[] values = {"1", "2"}; // Data you want to send to IFTTT server
+		String[] values = {"1", "2"}; // Data you want to send to IFTTT server, please note that IFTTT can only recieve 3 values
 		IFTTT.sendWebHook("event_name", "IFTTT_Maker_key", values);
 	}
 
